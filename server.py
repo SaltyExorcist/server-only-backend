@@ -28,6 +28,7 @@ def get_db_connection():
     conn.autocommit=True
     return conn
 
+
 # 1. Teams API
 @app.route('/api/teams')
 def get_teams():
